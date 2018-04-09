@@ -1,0 +1,160 @@
+
+  *{
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #fff;
+    color: #666;
+    font-family: 'Open Sans', arial, sans-serif;
+    width: 100%;
+    margin: 0 auto 0 auto;
+  }
+  .section {
+    width: 100%;
+  }
+  .section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .recipe img{
+    width: 100%;
+    height: auto;
+
+  }
+  .recipe {
+    float: left;
+    /*width: calc((100% - 60px) / 4);*/
+    width: calc((100%) / 4);
+
+    border: none;
+    /*margin-right: 20px;*/
+    padding-bottom: 25%;
+    height: 0;
+  }
+  .recipe:last-child{
+    margin-right: 0;
+  }
+
+
+    /* Add a black background color to the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color: #fefefe;
+  }
+
+  .nav {
+    overflow: hidden;
+    background-color: #39918c;
+    border-bottom: 10px solid #39918c;  
+  }
+
+  .nav-items {
+    width: 50%;
+    margin: auto;
+    letter-spacing: 1px;
+  }
+  /* Style the links inside the navigation bar */
+  .nav a {
+    float: left;
+    display: block;
+    color: #222222;
+    text-align: center;
+    padding: 10px 10px 4px 10px;
+    text-decoration: none;
+    font-size: 13px;
+    margin: auto;
+    width: calc((100%) / 5);
+    text-transform: uppercase;
+  }
+
+  /* Change the color of links on hover */
+  .nav a:hover {
+      color: white;
+  }
+
+  /* Style the "active" element to highlight the current page */
+  .nav a.active {
+    /*background-color: #2196F3;*/
+    color: white;
+    border-bottom: 2px solid orange;
+  }
+
+  /* Style the search box inside the navigation bar */
+  .topnav input[type=text] {
+    display: block;
+    padding: 6px;
+    border: none;
+    /*margin-top: 8px;*/
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 85%;
+    float: right;
+    background-color: rgb(243, 243, 243);
+  }
+
+  .feature-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 450px;
+  }
+
+  #recipe-content {
+    width: 50%;
+    float: left;
+  }
+
+
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .section {
+      width: 100%;
+    }
+    .section:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    .recipe {
+      float: left;
+      width: calc((100%) / 2);
+      border: none;
+      /*margin-right: 20px;*/
+      padding-bottom: 50%;
+      height: 0;
+    }
+    .recipe:last-child{
+      margin-right: 0;
+    }
+    .recipe:nth-child(2){
+      margin-right: 0;
+    }
+    /*.recipe {
+      margin-top: 2.30%;*/
+  }
+    
+  
+  @media (max-width: 480px) {
+    .recipe {
+      width: 100%;
+      height: 0;
+      padding-bottom: 100%;
+    }
+    /*.recipe + .recipe {
+      margin-top: 2.30%;*/
+  }
