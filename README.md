@@ -3,6 +3,7 @@
 FoodGuru
 
 Link: mysite.pratt.edu/~cescala
+
 A website the user can search for recipes by ingredients they have in their fridge.
 
 
@@ -18,9 +19,10 @@ Tasks that the prototype support so far.
 
 NOTE ON PARTS THAT DON'T WORK
 
-All the data in this prototype is hardcoded.
-The search bar is not able to search for anything else rather than the items listed.
-When the search bar is empty and press enter the recipes disappear (In that case the page needs to be refreshed)
-The search bar only works on the home page. The search bar doesn't work on the recipe detail page.
+- All the data in this prototype is hardcoded.
+- The search bar is not able to search for anything else rather than the items listed.
+- When the search bar is empty and press enter the recipes disappear (In that case the page needs to be refreshed)
+- The search bar only works on the home page. 
+- The search bar doesn't work on the recipe detail page.
 
 
