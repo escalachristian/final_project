@@ -1,6 +1,7 @@
 
 
 FoodGuru
+
 Link: mysite.pratt.edu/~cescala
 A website the user can search for recipes by ingredients they have in their fridge.
 
