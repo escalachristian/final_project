@@ -1,11 +1,25 @@
-# final_project
-URL - http://mysite.pratt.edu/~cescala/index.html
 
-Parts not working yet.
-- The search bar to input an ingredient and get a recipe
-- The navigation items to other pages besides home page. 
-- The navigation on tablet and mobile.
 
-Tasks that the interface supports.
-- As of right now... Once the site is load it shows suggested recipes, by clicking in one of them it takes the user to a recipe page with information about it.
+FoodGuru
+Link: mysite.pratt.edu/~cescala
+A website the user can search for recipes by ingredients they have in their fridge.
+
+
+Tasks that the prototype support so far.
+
+- Type on search bar chicken or Chicken and press enter
+- Type on search bar cheese or Cheese and press enter
+- Type on search bar beef or Beef and press enter
+- Type on search bar tuna or Tuna and press enter
+- Click on any recipe that came out of the search by ingredient
+- Click on any recipe listed on the home page
+- Shrink the screen and try the tasks on the three breakpoints (desktop, tablet and mobile)
+
+NOTE ON PARTS THAT DON'T WORK
+
+All the data in this prototype is hardcoded.
+The search bar is not able to search for anything else rather than the items listed.
+When the search bar is empty and press enter the recipes disappear (In that case the page needs to be refreshed)
+The search bar only works on the home page. The search bar doesn't work on the recipe detail page.
+
 
