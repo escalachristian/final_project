@@ -3,22 +3,26 @@
     {
       "name": "Bolognese Pasta Sauce",
       "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
+      "photo": "img/bolognese-sauce.jpg",
+      "rating": "Rating: 3/5"
     },
     {
       "name": "Chicken Fajitas",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/chicken-fajitas.jpg",
+      "rating": "Rating: 4/5"
     },
     {
       "name": "Triple Cheese Pasta",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/triple-cheese.jpg",
+      "rating": "Rating: 5/5"
     },
     {
       "name": "Tuna Patty",
       "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
+      "photo": "img/tuna-patty.jpg",
+      "rating": "Rating:2/5"
     },
     {
       "name": "Tuna Patty",

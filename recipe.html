@@ -1,22 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="css/stylesheet.css"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-	</head>
+    	<head>
+    		<meta charset="UTF-8">
+    		<link rel="stylesheet" href="css/stylesheet.css"/>
+    		<meta name="viewport" content="width=device-width, initial-scale=1">
+    	</head>
 	<body>
 		<section class="top-bar">
-			<div class="topnav">
-				<input type="text" placeholder="Search a recipe by ingredient . . .">
-			</div>
-		</section>
-		<section class="feature-img"><img id="banner-image" src=""></section>
+            <div class="topnav"> 
+                <a href="index.html"><img src="img/logo.png"></a>
+                <input type="text" id="ingredient" placeholder="Search a recipe by ingredient . . .">
+            </div>
+            <!--<div class="nav">
+                <div class="nav-items">
+                    <a class="active" href="#home">FOR YOU</a>
+                    <a href="#seasonal">SEASONAL</a>
+                    <a href="#healthy">HEALTHY</a>
+                    <a href="#quick">QUICK</a>
+                    <a href="#desserts">desserts</a>
+                </div>-->
+                
+            </div>
+        </section>
+
+		<section id="scroll-bar"></section>
     	<section id="recipe-content">
+            <div class="feature-img"><img id="banner-image" src=""></div>
+            <div class="instructions">
     		<div class="ingredients">
+                <h1>Chicken Fajitas</h1>
     			<h3>
-    				Ingredients:
-    			</h3>
+                    Ingredients:
+                </h3>
     			<ul>
     				<li>1 large onion or 2 small, cut into 1-inch dice</li>
     				<li>2 large carrots, cut into 1/2-inch dice</li>
@@ -54,9 +69,8 @@
 
 				<p>Drain the pasta and add to the pot with the remaining ragu. Stir or toss the pasta to coat with the sauce. Add some of the reserved sauce, if needed, to make it about an even ratio between pasta and sauce. Add the reserved pasta cooking water and cook the pasta and sauce together over a medium heat until the water has reduced. Turn off the heat and give a big sprinkle of Parmigiano and a generous drizzle of the high quality finishing olive oil. Toss or stir vigorously. Divide the pasta and sauce into serving bowls or 1 big pasta bowl. Top with remaining grated Parmigiano. Serve immediately.</p> 
     		</div>
+            </div>
     	</section>
-    	<section id="content"></section>
-
         <script src="js/recipe-data-json.js"></script>
 	</body>
 </html>
