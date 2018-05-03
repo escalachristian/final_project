@@ -19,230 +19,370 @@
       "rating": "Rating: 5/5"
     },
     {
-      "name": "Tuna Patty",
+      "name": "Tuna Salad",
       "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg",
+      "photo": "img/tuna-salad.jpg",
       "rating": "Rating:2/5"
     },
     {
       "name": "Tuna Patty",
       "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
+      "photo": "img/tuna-patty.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Triple Cheese Pasta",
+      "name": "Three Chesse Mashed Potatoes",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/three-cheese-mashed-potatoes.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Chicken Fajitas",
+      "name": "Chicken Teriyaki",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/teriyaki-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Stew",
+      "ingredient": "beef",
+      "photo": "img/beef-stew.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Ragu",
+      "ingredient": "beef",
+      "photo": "img/beef-ragu.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Fried Tandoorin Chicken",
+      "ingredient": "chicken",
+      "photo": "img/friend-tandoorin-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Macaroni and Cheese",
+      "ingredient": "cheese",
+      "photo": "img/macaroni-and-cheese.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Tuna Tartare",
+      "ingredient": "tuna",
+      "photo": "img/tuna-tartare.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Seared Ahi Tun",
+      "ingredient": "tuna",
+      "photo": "img/seared-ahi-tuna.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Cheese Dip",
+      "ingredient": "cheese",
+      "photo": "img/cheese-dip.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Broccoli and Mushroom Chicken",
+      "ingredient": "chicken",
+      "photo": "img/creamy-broccoli-and-mushroom-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Minestrone",
+      "ingredient": "beef",
+      "photo": "img/beef-minestrone.jpg",
+      "rating": "Rating: 4/5"
     },
     {
       "name": "Bolognese Pasta Sauce",
       "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
-    },
-    {
-      "name": "Bolognese Pasta Sauce",
-      "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
+      "photo": "img/bolognese-sauce.jpg",
+      "rating": "Rating: 3/5"
     },
     {
       "name": "Chicken Fajitas",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/chicken-fajitas.jpg",
+      "rating": "Rating: 4/5"
     },
     {
       "name": "Triple Cheese Pasta",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/triple-cheese.jpg",
+      "rating": "Rating: 5/5"
+    },
+    {
+      "name": "Tuna Salad",
+      "ingredient": "tuna",
+      "photo": "img/tuna-salad.jpg",
+      "rating": "Rating:2/5"
     },
     {
       "name": "Tuna Patty",
       "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
+      "photo": "img/tuna-patty.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Tuna Patty",
-      "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
-    },
-    {
-      "name": "Triple Cheese Pasta",
+      "name": "Three Chesse Mashed Potatoes",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/three-cheese-mashed-potatoes.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Chicken Fajitas",
+      "name": "Chicken Teriyaki",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/teriyaki-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Stew",
+      "ingredient": "beef",
+      "photo": "img/beef-stew.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Ragu",
+      "ingredient": "beef",
+      "photo": "img/beef-ragu.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Fried Tandoorin Chicken",
+      "ingredient": "chicken",
+      "photo": "img/friend-tandoorin-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Macaroni and Cheese",
+      "ingredient": "cheese",
+      "photo": "img/macaroni-and-cheese.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Tuna Tartare",
+      "ingredient": "tuna",
+      "photo": "img/tuna-tartare.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Seared Ahi Tun",
+      "ingredient": "tuna",
+      "photo": "img/seared-ahi-tuna.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Cheese Dip",
+      "ingredient": "cheese",
+      "photo": "img/cheese-dip.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Broccoli and Mushroom Chicken",
+      "ingredient": "chicken",
+      "photo": "img/creamy-broccoli-and-mushroom-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Minestrone",
+      "ingredient": "beef",
+      "photo": "img/beef-minestrone.jpg",
+      "rating": "Rating: 4/5"
     },
     {
       "name": "Bolognese Pasta Sauce",
       "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
-    },
-    {
-      "name": "Bolognese Pasta Sauce",
-      "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
+      "photo": "img/bolognese-sauce.jpg",
+      "rating": "Rating: 3/5"
     },
     {
       "name": "Chicken Fajitas",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/chicken-fajitas.jpg",
+      "rating": "Rating: 4/5"
     },
     {
       "name": "Triple Cheese Pasta",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/triple-cheese.jpg",
+      "rating": "Rating: 5/5"
+    },
+    {
+      "name": "Tuna Salad",
+      "ingredient": "tuna",
+      "photo": "img/tuna-salad.jpg",
+      "rating": "Rating:2/5"
     },
     {
       "name": "Tuna Patty",
       "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
+      "photo": "img/tuna-patty.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Tuna Patty",
-      "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
-    },
-    {
-      "name": "Triple Cheese Pasta",
+      "name": "Three Chesse Mashed Potatoes",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/three-cheese-mashed-potatoes.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Chicken Fajitas",
+      "name": "Chicken Teriyaki",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/teriyaki-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Stew",
+      "ingredient": "beef",
+      "photo": "img/beef-stew.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Ragu",
+      "ingredient": "beef",
+      "photo": "img/beef-ragu.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Fried Tandoorin Chicken",
+      "ingredient": "chicken",
+      "photo": "img/friend-tandoorin-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Macaroni and Cheese",
+      "ingredient": "cheese",
+      "photo": "img/macaroni-and-cheese.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Tuna Tartare",
+      "ingredient": "tuna",
+      "photo": "img/tuna-tartare.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Seared Ahi Tun",
+      "ingredient": "tuna",
+      "photo": "img/seared-ahi-tuna.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Cheese Dip",
+      "ingredient": "cheese",
+      "photo": "img/cheese-dip.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Broccoli and Mushroom Chicken",
+      "ingredient": "chicken",
+      "photo": "img/creamy-broccoli-and-mushroom-chicken.jpg",
+      "rating": "Rating: 4/5"
+    },
+    {
+      "name": "Beef Minestrone",
+      "ingredient": "beef",
+      "photo": "img/beef-minestrone.jpg",
+      "rating": "Rating: 4/5"
     },
     {
       "name": "Bolognese Pasta Sauce",
       "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
-    },
-    {
-      "name": "Bolognese Pasta Sauce",
-      "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
+      "photo": "img/bolognese-sauce.jpg",
+      "rating": "Rating: 3/5"
     },
     {
       "name": "Chicken Fajitas",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/chicken-fajitas.jpg",
+      "rating": "Rating: 4/5"
     },
     {
       "name": "Triple Cheese Pasta",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/triple-cheese.jpg",
+      "rating": "Rating: 5/5"
+    },
+    {
+      "name": "Tuna Salad",
+      "ingredient": "tuna",
+      "photo": "img/tuna-salad.jpg",
+      "rating": "Rating:2/5"
     },
     {
       "name": "Tuna Patty",
       "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
+      "photo": "img/tuna-patty.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Tuna Patty",
-      "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
-    },
-    {
-      "name": "Triple Cheese Pasta",
+      "name": "Three Chesse Mashed Potatoes",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/three-cheese-mashed-potatoes.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Chicken Fajitas",
+      "name": "Chicken Teriyaki",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/teriyaki-chicken.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Bolognese Pasta Sauce",
+      "name": "Beef Stew",
       "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
+      "photo": "img/beef-stew.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Bolognese Pasta Sauce",
+      "name": "Beef Ragu",
       "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
+      "photo": "img/beef-ragu.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Chicken Fajitas",
+      "name": "Fried Tandoorin Chicken",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/friend-tandoorin-chicken.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Triple Cheese Pasta",
+      "name": "Macaroni and Cheese",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/macaroni-and-cheese.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Tuna Patty",
+      "name": "Tuna Tartare",
       "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
+      "photo": "img/tuna-tartare.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Tuna Patty",
+      "name": "Seared Ahi Tun",
       "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
+      "photo": "img/seared-ahi-tuna.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Triple Cheese Pasta",
+      "name": "Cheese Dip",
       "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
+      "photo": "img/cheese-dip.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Chicken Fajitas",
+      "name": "Broccoli and Mushroom Chicken",
       "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
+      "photo": "img/creamy-broccoli-and-mushroom-chicken.jpg",
+      "rating": "Rating: 4/5"
     },
     {
-      "name": "Bolognese Pasta Sauce",
+      "name": "Beef Minestrone",
       "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
-    },
-    {
-      "name": "Bolognese Pasta Sauce",
-      "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
-    },
-    {
-      "name": "Chicken Fajitas",
-      "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
-    },
-    {
-      "name": "Triple Cheese Pasta",
-      "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
-    },
-    {
-      "name": "Tuna Patty",
-      "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
-    },
-    {
-      "name": "Tuna Patty",
-      "ingredient": "tuna",
-      "photo": "img/tuna-patty.jpg"
-    },
-    {
-      "name": "Triple Cheese Pasta",
-      "ingredient": "cheese",
-      "photo": "img/triple-cheese.jpg"
-    },
-    {
-      "name": "Chicken Fajitas",
-      "ingredient": "chicken",
-      "photo": "img/chicken-fajitas.jpg"
-    },
-    {
-      "name": "Bolognese Pasta Sauce",
-      "ingredient": "beef",
-      "photo": "img/bolognese-sauce.jpg"
+      "photo": "img/beef-minestrone.jpg",
+      "rating": "Rating: 4/5"
     }
   ]
 }
