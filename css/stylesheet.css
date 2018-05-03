@@ -56,6 +56,16 @@
     padding-bottom: 25%;
     height: 0;
   }
+  #nothing-found {
+    position: relative;
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
+    border: none;
+    padding-bottom: 25%;
+    height: 0; 
+  }
   .recipe:last-child{
     margin-right: 0;
   }
@@ -136,6 +146,12 @@
     width: 100%;
   }
       
+  }
+  .withoutSearch{
+    display: block;
+    height: 55px;
+    width: 100%;
+    clear: both;
   }
 
 

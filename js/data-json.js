@@ -1,52 +1,23 @@
 function bindImageClick(id){
 	var image = document.getElementById(id);
-	image.addEventListener('click', function(){submitForm(id)}, false);
+	image.addEventListener('click', function(){
+		
+	  var transferString = "";
+	  $(".recipe:visible").each(function(index){
+      	transferString+=$(this).prop("outerHTML");
+      });
+      localStorage.setItem("transfer", transferString);
+      localStorage.setItem("image", $(this).attr("src"));
+      localStorage.setItem("name", $(this).attr("alt"));
+      submitForm(id);
+
+	}, false);
 }
 
 function submitForm(id){
 	document.getElementById("url").value = document.getElementById(id).getAttribute('src') ;
 	document.getElementById("recipe-page").submit();
 }
-
-/*var request = new XMLHttpRequest();
-
-request.open('GET', 'http://food2fork.com/api/search?key=3fec7897c28d6208226a7274e30eb22f&q=shredded%20chicken', true);
-request.onload = function () {
-
-  // Begin accessing JSON data here
-  var data = JSON.parse(this.response);
-
-  if (request.status >= 200 && request.status < 400) {
-    data.forEach(movie => {
-      console.log(movie.title);
-    });
-  } else {
-    console.log('error');
-  }
-}
-
-request.send();
-*/
-/*
-function response(data){
-	alert("here");
-}
-var script = document.createElement("script");
-script.type = "text/javascript";
-script.src = "http://food2fork.com/api/search?key=3fec7897c28d6208226a7274e30eb22f&q=shredded%20chicken?callback=response";
-$("body").append(script);
-*/
-
-/*
-function reqListener () {
-  console.log(this.responseText);
-}
-
-var oReq = new XMLHttpRequest();
-oReq.addEventListener("load", reqListener);
-oReq.open("GET", "http://food2fork.com/api/search?key=3fec7897c28d6208226a7274e30eb22f&q=shredded%20chicken");
-oReq.send();
-*/
 
 // create XMLHttpRequest object
 var xhr = new XMLHttpRequest();
@@ -63,7 +34,7 @@ xhr.onload = function() {
 			newContent += '<div class="recipe" data="'+ responseObject.recipes[i].ingredient +'">';
 			//create img with alt location
 			newContent += '<img id="image-' + i + '" src="' + responseObject.recipes[i].photo + '"';
-			newContent += 'alt"=' + responseObject.recipes[i].name + '"/>';
+			newContent += 'alt=\'' + responseObject.recipes[i].name + '\'/>';
 			//newContent += '<p class="overlay">' + responseObject.recipes[i].name + '</p>';
 			//newContent += '<p class="overlay">' + responseObject.recipes[i].rating + '</p>';
 			newContent += '<p class="overlay"><b>' + responseObject.recipes[i].name + '</b><br>';
@@ -97,14 +68,20 @@ searchButton.addEventListener('keypress', function (e) {
     var tiles = document.getElementsByClassName("recipe");
     if (key === 13) { // 13 is enter
       var searchText = searchButton.value;
+      if (searchText=="") return false;
       for (var i=0; i< tiles.length; i++) {
       	if(tiles[i].getAttribute('data').toLowerCase()!= searchText.toLowerCase()) {
       		tiles[i].style.display = "none";
       	} else {
       		tiles[i].style.display = "inline-block";
       	}
+      	if($(".recipe:visible").length==0 && $("#nothing-found").length==0) {
+      		var nothingFound = $("<div>" , {"id":"nothing-found","html":"Sorry! No such ingredient found!"});
+      		$("#content").append(nothingFound);
+      	}
       }
     } else if (key === 8 || key === 46) { // Backspace or Delete
+    	$("#nothing-found").remove();
     	for (var i=0; i< tiles.length; i++) {
         	tiles[i].style.display = "inline-block";	
       }
